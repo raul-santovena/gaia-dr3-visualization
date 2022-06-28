@@ -12,6 +12,7 @@
 # --------------------
 
 ##### IMPORTS #####
+import os
 import numpy as np
 import pandas as pd
 
@@ -26,12 +27,14 @@ from bokeh.models.tickers import FixedTicker
 #-- END IMPORTS --#
 
 ##### PATHS #####
-final_data_path = 'data/final_df.csv'
-rvs_path = 'data/rvs.npy'
-xp_path = 'data/xp.npy'
-rvs_embedded_path = 'data/rvs_embedded.npy'
-xp_embedded_path = 'data/xp_embedded.npy'
-rvs_wavelengths_path = 'data/rvs_wavelengths.npy'
+project_path = os.path.dirname(__file__)
+
+final_data_path = os.path.join(project_path, 'data/final_df.csv')
+rvs_path = os.path.join(project_path, 'data/rvs.npy')
+xp_path = os.path.join(project_path, 'data/xp.npy')
+rvs_embedded_path = os.path.join(project_path, 'data/rvs_embedded.npy')
+xp_embedded_path = os.path.join(project_path, 'data/xp_embedded.npy')
+rvs_wavelengths_path = os.path.join(project_path, 'data/rvs_wavelengths.npy')
 #-- END PATHS --#
 
 ##### CONSTANTS #####
