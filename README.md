@@ -1,6 +1,10 @@
 # Gaia DR3 Visualization Tool
 This repo show an example of how visualizing data using python and building a bokeh server to add some basic interactions.
 
+![Tool example](https://github.com/raul-santovena/gaia-dr3-visualization/blob/main/gif_example.gif)
+
+
+
 ## Instructions
 ### Set up the environment
 First of all, it is advisable to create a virtual environment.
