@@ -135,7 +135,7 @@ logg_mapper = linear_cmap(field_name='logg', palette=Spectral11, low=min(final_d
 ##### FIGURE CREATION #####
  
 # Define available tools for the user
-TOOLS = "pan,box_zoom,box_select,help,reset"
+TOOLS = "pan,box_zoom,wheel_zoom,box_select,lasso_select,help,reset"
 
 figures = list()
 
@@ -384,5 +384,3 @@ else:
 
 # Define title
 curdoc().title = 'GAIA DR3'
-
-# TODO Añadir la selección de recorte, quitar axis labels que sobren
