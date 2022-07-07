@@ -6,7 +6,7 @@ This repo show an example of how visualizing data using python and building a bo
 This tool show several things:
  - In the upper left corner, it displays a [HR diagram](https://en.wikipedia.org/wiki/Hertzsprung%E2%80%93Russell_diagram) about the downloaded stars.
  - In the upper right corner shows both the [BP-RP Spectra](https://www.cosmos.esa.int/web/gaia/photometric-instrument) (using coefficients) and [RVS Spectra](https://www.cosmos.esa.int/web/gaia/radial-velocity-spectrometer).
- - The bottom of the tool ilustrates the application of the T-SNE algotithm, applied respectively to the BP-RP and RVS spectra, where the data were reduced to a two-dimensional space.
+ - The bottom of the tool ilustrates the application of the T-SNE algorithm, applied respectively to the BP-RP and RVS spectra, where the data were reduced to a two-dimensional space.
  
 Using the [bokeh](https://docs.bokeh.org/en/latest/) library, some interactions can be performed, such as choosing between different color representations based on temperature, gravity, or metallicity; represent the size of the objects using their absolute magnitude, or select specific data to highlight their relationships.
 
